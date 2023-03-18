@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Poppins', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.landing-header{
+    background-image: url(../src/assests/landingPage/header-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landingPageTotcDiv1{
+    background-image: url(/src/assests/landingPage/landing-totc-img1.svg);
+    background-size: cover;
+}
+.landingPageTotcDiv2{
+    background-image: url(/src/assests/landingPage/landing-totc-img2.svg);
+    background-size: cover;
+}
+.course-section{
+    background-image: linear-gradient(to right, #EBF5FF 80%, transparent 80%);
+  background-size: 100% 100%;
 }
